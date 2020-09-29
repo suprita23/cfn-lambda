@@ -8,7 +8,7 @@ const stream = require('stream')
 const regions = require('./lib/lambda.regions.json')
 const template = require('./lib/cfn-template.json')
 
-const DEFAULT_RUNTIME = 'nodejs10.x'
+const DEFAULT_RUNTIME = 'nodejs12.x'
 
 const defaults = {
   account: null,
